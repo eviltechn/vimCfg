@@ -23,6 +23,7 @@ filetype plugin indent on    " required
 syntax on
 set number
 set splitright
+set splitbelow
 set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
@@ -34,7 +35,7 @@ set noexpandtab
 set showmatch
 set omnifunc=syntaxcomplete#Complete
 set t_Co=256
-colorscheme challenger_deep
+colorscheme hybrid
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 
 " Autostart of NERDTree with vim and new tab  "
