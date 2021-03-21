@@ -16,6 +16,7 @@ Plugin 'preservim/nerdtree'
 
 Plugin 'rafi/awesome-vim-colorschemes'
 
+Plugin 'vim-airline/vim-airline'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -35,7 +36,7 @@ set noexpandtab
 set showmatch
 set omnifunc=syntaxcomplete#Complete
 set t_Co=256
-colorscheme hybrid
+colorscheme abstract
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 
 " Autostart of NERDTree with vim and new tab  "
